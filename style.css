@@ -1,0 +1,15 @@
+body {
+    background-image: coffestuff.jpg;
+}
+
+h1, h2,h3, h4, p footer { font-size: large;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.adress {
+    text-align: center;
+    font-family: italic; 
+}
