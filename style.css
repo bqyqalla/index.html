@@ -1,25 +1,71 @@
+body{
+    margin:0px;
+    background-image: url(img/images4.jpeg);
+    background-size: cover; ;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
 .title { font-size: large;
-  
+    color:white; 
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bold ;
     text-align: center;
-    padding: 50px ;
-    padding-bottom: 10px;
+   
     
 }
 p { font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    padding: 0% ;
+    padding-left: 200px; 
+    padding-right: 200px;
+    color: white !important
 }
 .adress {
     text-align: center;
-    font-family: italic; 
+    font: italic 11px;
     font-size: medium;
+    color: black;s   
 }
 h1{ font-size: 50px; font-weight: bold;
 }
-img {  width:50px;
+img {  width:80px;
     height:60px;
-    margin-right: auto;
+    margin-left: 48%; margin-right:49%
+
+
 }
-    
+
+h2,h3,h4 {
+    padding-bottom: 0px;
+    color: gold !important;
+}
+hr {
+    height: 2px;
+    background-color: gold ;
+    border-color: black;
+  
+  }
+  .bottom-line {
+    margin-top: 0px;
+  }
+  .main-title {
+    text-align: center;
+    font-style: cursive;
+    font-size: 100px;
+    color:gold;
+    margin-bottom: 0px ;
+  }
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    color: blue; 
+  }
+  
+  a:active {
+    color: red;
+  }
