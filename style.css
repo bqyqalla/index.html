@@ -1,12 +1,12 @@
 body{
     margin:0px;
     background-image: url(img/images4.jpeg);
-    background-size: cover; ;
-    padding-top: 100px;
+    background-size: cover;
+    padding-top: 75px;
     padding-bottom: 200px;
 }
 .title { font-size: large;
-    color:white; 
+    color:gold; 
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bold ;
     text-align: center;
@@ -15,8 +15,8 @@ body{
 }
 p { font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    padding-left: 200px; 
-    padding-right: 200px;
+    padding-left: 5%; 
+    padding-right: 5%;
     color: white !important
 }
 .adress {
@@ -24,29 +24,22 @@ p { font-family: 'Times New Roman', Times, serif;
     font: italic 11px;
     font-size: medium;
     color: black;s   
+    margin-top: 100px;
 }
-h1{ font-size: 50px; font-weight: bold;
-}
-img {  width:80px;
-    height:60px;
-    margin-left: 48%; margin-right:49%
-
-
+img { display: block; 
+    width: 80px;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 10px;
+    
 }
 
 h2,h3,h4 {
-    padding-bottom: 0px;
-    color: gold !important;
+    padding-bottom: 20px;
+    color: gold;
 }
-hr {
-    height: 2px;
-    background-color: gold ;
-    border-color: black;
+
   
-  }
-  .bottom-line {
-    margin-top: 0px;
-  }
   .main-title {
     text-align: center;
     font-style: cursive;
@@ -59,7 +52,7 @@ hr {
   }
   
   a:visited {
-    color: white;
+    color: gold;
   }
   
   a:hover {
@@ -68,4 +61,20 @@ hr {
   
   a:active {
     color: red;
+  }
+  div{
+    display: inline-block;
+    background-color: rgb(24, 60, 24) !important;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-left: 2px solid; 
+    border-right: 2px solid; 
+    border-top: 2px solid; 
+    border-bottom: 2px solid; 
+    border-color:gold !important;
+    padding: top 20px;px
+    max-width: 600px;
+min-width: 260px
+   
+    
   }
